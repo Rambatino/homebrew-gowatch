@@ -10,10 +10,10 @@ class Gowatch < Formula
       :windows
     when /darwin|mac os/
       url "https://github.com/Rambatino/gowatch/releases/download/v0.0.1/gowatch_0.0.1_darwin_amd64.zip"
-      sha256 "3b0918ab5a6f999584604f0cd341fcf972a6a611e714d099a9efce1ab7864a54"
+      sha256 "401b5a3819b97b86f8cc9d4b0913ad39562230b3d70d18a4530db5d6134055ba"
     when /linux/
       url "https://github.com/Rambatino/gowatch/releases/download/v0.0.1/gowatch_0.0.1_linux_amd64.tar.gz"
-      sha256 "3d845a9d61e84525d06f956af238f27b63179b2dc3d22a815d9627c8ed9cd8c2"
+      sha256 "73f5351e9b9a9780c1e58f82395bb22bfd60ecc53c77aa70f95d8c002c1e2bf5"
     when /solaris|bsd/
       :unix
     else
@@ -25,10 +25,10 @@ class Gowatch < Formula
       :windows
     when /darwin|mac os/
       url "https://github.com/Rambatino/gowatch/releases/download/v0.0.1/gowatch_0.0.1_darwin_386.zip"
-      sha256 "6f38d115b8c3730f7ec404b677eb879b74c716c11217ecbe562269730055f7c3"
+      sha256 "ef8f327e48a9cd6eb877ce1ba24e3a54146880d530104a034cfe1f1b75acf149"
     when /linux/
       url "https://github.com/Rambatino/gowatch/releases/download/v0.0.1/gowatch_0.0.1_linux_386.tar.gz"
-      sha256 "edc61ffd15465f66643ad188372aace09666f6e993ce0a181e5bb3ae61b23371"
+      sha256 "f4f7b6f1c3d08ae9adb6e456a7e60c45e35774f2755c4fcbcc5e6cd91440fa1f"
     when /solaris|bsd/
       :unix
     else
