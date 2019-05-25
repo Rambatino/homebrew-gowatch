@@ -2,18 +2,18 @@ require 'rbconfig'
 class Gowatch < Formula
   desc ""
   homepage "https://github.com/Rambatino/gowatch"
-  version "0.0.2"
+  version "0.0.3"
 
   if Hardware::CPU.is_64_bit?
     case RbConfig::CONFIG['host_os']
     when /mswin|msys|mingw|cygwin|bccwin|wince|emc/
       :windows
     when /darwin|mac os/
-      url "https://github.com/Rambatino/gowatch/releases/download/v0.0.2/gowatch_0.0.2_darwin_amd64.zip"
-      sha256 "1d531a04ed9e182c6379100f4198f76193f818639113807c125e28db8cfbfccf"
+      url "https://github.com/Rambatino/gowatch/releases/download/v0.0.3/gowatch_0.0.3_darwin_amd64.zip"
+      sha256 "1b36ae0bee190f62cf452ca1583c23bf52ba6ed7a097203f4a9317632fdc2ab0"
     when /linux/
-      url "https://github.com/Rambatino/gowatch/releases/download/v0.0.2/gowatch_0.0.2_linux_amd64.tar.gz"
-      sha256 "5441e54af0477d7e2ab3a590bba0a665729b3ebbb2f1ca579a3b4284d589ba37"
+      url "https://github.com/Rambatino/gowatch/releases/download/v0.0.3/gowatch_0.0.3_linux_amd64.tar.gz"
+      sha256 "bc4edd46d5e99ae1955e5e351a95655f405a5dae8fd98cfe547df0d47fb824ef"
     when /solaris|bsd/
       :unix
     else
@@ -24,11 +24,11 @@ class Gowatch < Formula
     when /mswin|msys|mingw|cygwin|bccwin|wince|emc/
       :windows
     when /darwin|mac os/
-      url "https://github.com/Rambatino/gowatch/releases/download/v0.0.2/gowatch_0.0.2_darwin_386.zip"
-      sha256 "e60154fe4f7f1d8950c6a05b55e5f92d8a3e644bfcd86e4bff189b085a3a51d0"
+      url "https://github.com/Rambatino/gowatch/releases/download/v0.0.3/gowatch_0.0.3_darwin_386.zip"
+      sha256 "a70fe7aed4c53dda749ad72b44963c26f0529fc2ec9abb40a74351a18737d81f"
     when /linux/
-      url "https://github.com/Rambatino/gowatch/releases/download/v0.0.2/gowatch_0.0.2_linux_386.tar.gz"
-      sha256 "0a8531ecc52fac91a9794e7bff58f1da9a6c830d4af648db50a4c529bdf565c7"
+      url "https://github.com/Rambatino/gowatch/releases/download/v0.0.3/gowatch_0.0.3_linux_386.tar.gz"
+      sha256 "7e0e04c6f0f0ac94f15afe224e59e48f50dacbb1151ead10804470f29f24a8bc"
     when /solaris|bsd/
       :unix
     else
